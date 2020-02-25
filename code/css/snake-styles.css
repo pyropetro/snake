@@ -1,0 +1,65 @@
+* { 
+	padding: 0;
+	margin: 0; 
+}
+
+@font-face {
+	font-family: 'Gameplay';
+    src: url(../../fonts/Gameplay.ttf);
+}
+
+h1, button {
+	font-family: 'Gameplay', sans-serif;
+}
+
+#wrapper { 
+	/*padding: 50px;*/
+}
+
+
+#score h1 {
+	color: #ff0; 
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#game-over { 
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+    width: 800px;
+	color: #f00;
+	font-size: 2em;
+	display: none;
+
+}
+
+#game-over-wrapper {
+	margin: 300px auto;
+}
+
+#game-over-text, #restart {
+	color: #f00;
+}
+
+#restart {
+	background-color: transparent;
+	font-size: 1.3em;
+	border: none;
+	margin-top: 1em;
+}
+
+#restart:hover, #restart:focus {
+	color: #ff0;
+	border: none;
+}
+
+#field {
+	background-color: #000;
+	/*margin: 0 auto;*/
+}
+
+.segment {
+	position: absolute;
+}

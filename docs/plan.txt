@@ -1,0 +1,19 @@
+SNAKE!!!
+
+Rules:
+- Move with arrow keys: constrained to up, down, left, right
+- Dot appears at random location
+- If you eat the dot, it attaches to the end of your tail
+- Dots follow the one in front of it
+- If you run into your tail or the walls, you die
+
+Process:
+- Make a large grid
+- Generate a randomly-colored dot
+- Whenever you eat a dot, it attaches to the end of your tail and a new one is generated
+
+
+Save head's old position
+Move head set distance in desired direction
+Save next segment's old position
+Set next segment to head's previous position with offset
